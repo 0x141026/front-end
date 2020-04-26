@@ -1,4 +1,4 @@
-(function(){
+(function(window,$){
 	var njz=function (){
 		return{
 			//功能：判断权利人是否都一样
@@ -25,7 +25,7 @@
 				} 
 			}
 			//
-		}
+		};
 	}();
 	window.njz=njz;
-})(window);
+})(window,jQuery);
