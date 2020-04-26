@@ -32,9 +32,9 @@ $(window).load(function(){
 window.onload=function(){
 	console.log("99999");
 };
-console.log("执行和顺序：\n\n"+"立即执行函数(定义多个，依次执行)\n>$(function(){});或者$(document).ready(function(){});(定义多个依次执行)\n"
+console.log("njz执行和顺序：\n\n"+"立即执行函数(定义多个，依次执行)\n>$(function(){});或者$(document).ready(function(){});(定义多个依次执行)\n"
 			+">window.onload=function(){};(定义多个只执行最后一个)\n>$(window).load(function(){});(定义多个，依次执行)");
-alert("执行和顺序：\n"+"立即执行函数(定义多个，依次执行)\n>$(function(){});或者$(document).ready(function(){});(定义多个依次执行)\n"
+alert("njz执行和顺序：\n"+"立即执行函数(定义多个，依次执行)\n>$(function(){});或者$(document).ready(function(){});(定义多个依次执行)\n"
 			+">window.onload=function(){};(定义多个只执行最后一个)\n>$(window).load(function(){});(定义多个，依次执行)");
 
 
